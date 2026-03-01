@@ -2,13 +2,14 @@ title: Progress
 
 # This scene contains information for the left sidebar.
 
-**Progress:** 
+**Progressbar:** 
 [+ progress : qprogress +]
 
-
-[? if decision-makers != 0 : **Holistic Context: ** ?]
+<br>
 
 [? if decision-makers = 0 : *Build your holistic context to see it here.* ?]
+
+[? if decision-makers != 0 : <h1>Holistic Context: </h1> ?]
 
 [? if decision-makers != 0 : **Whole Under Management** ?]
 [? if decision-makers != 0 : Decision makers: [+ decision-makers +] ?]

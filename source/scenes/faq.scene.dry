@@ -6,59 +6,6 @@ tags: root
 
 = Frequently asked questions
 
-[? if decision-makers = 0 : <details><summary>What is the Whole Under Management?</summary><p>The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things: <br> • Decision makers <br> • Resource base <br> • Money </p></details> ?]
+[? if decision-makers = 0 : <details><summary>Testquestion</summary><p>Testanswer <br> • Testlist item 1 <br> • Testlist item 2 </p></details> ?]
 
-**What is the Whole Under Management?**
-
-The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things:
-
-• Decision makers
-• Resource base
-• Money
-
-**Who counts as a decision maker?**
-
-Anyone who makes day-to-day decisions, carries them out, or has veto power over them. Being inclusive prevents hidden constraints later.
-
-**What is the resource base?**
-
-Everything you rely on to support your quality of life and plans. It includes physical resources (land, buildings, equipment) and human resources (people, partners, customers, neighbours, communities).
-
-**Why does “money” matter here?**
-
-Because money is a real constraint and a real tool. It can come from savings, income, credit, or other sources available to your whole.
-
-**What is a Holistic Context?**
-
-Your Holistic Context is your shared “north star” for decision-making. It describes:
-
-• The quality of life you want
-• The future resource base needed to sustain it
-[? if part-of = "org" : • A statement of purpose for the organisation ?]
-
-**What are the Filter Questions?**
-
-They are the seven context checks that help you test any action against your holistic context, so you avoid solutions that look good today but create problems tomorrow.
-
-The seven checks are:
-
-• Cause and Effect
-• Weak Link (social, biological, financial)
-• Marginal Reaction
-• Gross Profit Analysis
-• Energy/Money Source and Use
-• Sustainability
-• Gut Feel
-
-**What if an action fails a check?**
-
-It does not automatically mean “never do it”. It means you have learned where the risk is. You can modify the action, choose a different action, or proceed knowing what you must monitor and control.
-
-**Why is Gut Feel last?**
-
-Because it uses the picture you built from the other checks. It asks how you feel about the action in terms of your values, relationships, and consequences for others.
-
-**What are the “filter questions results”?**
-
-They are a summary of your answers across the seven checks, to help you reflect on your decision and revisit anything you skipped.
-
+- @backSpecialScene: Back
