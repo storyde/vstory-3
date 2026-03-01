@@ -9,65 +9,21 @@ new-page: true
 
 🍀 Be kind to them. 
 
-= Frequently asked questions
+= Knowledge
 
-[? if decision-makers = 0 : <details><summary>What is the Whole Under Management?</summary><p>The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things: <br> • Decision makers <br> • Resource base <br> • Money </p></details> ?]
+[? if progress > 5 : <details><summary>Whole Under Management</summary><p>The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things: <br> • Decision makers <br> • Resource base <br> • Money </p></details> ?]
 
-<details>
-  <summary>Who counts as a decision maker?</summary>
-  <p>Anyone who makes day-to-day decisions, carries them out, or has veto power over them. Being inclusive prevents hidden constraints later.</p>
-</details>
+[? if progress > 7 : <details><summary>Decision makers</summary><p>Anyone who makes day-to-day decisions, carries them out, or has veto power over them. Being inclusive prevents hidden constraints later.</p></details> ?]
 
 
-<details>
-  <summary>What is the resource base?</summary>
-  <p>Everything you rely on to support your quality of life and plans. It includes physical resources (land, buildings, equipment) and human resources (people, partners, customers, neighbours, communities).</p>
-</details>
+[? if progress > 9 : <details><summary>Resource base</summary><p>Everything you rely on to support your quality of life and plans. It includes physical resources (land, buildings, equipment) and human resources (people, partners, customers, neighbours, communities).</p></details> ?]
 
+[? if progress > 21 : <details><summary>Holistic context</summary><p>Your Holistic Context is your shared “north star” for decision-making. It describes:<br> • The quality of life you want<br> • The future resource base needed to sustain it</p></details> ?]
 
-<details>
-  <summary>What is a Holistic Context?</summary>
-  <p>Your Holistic Context is your shared “north star” for decision-making. It describes:<br>
-    • The quality of life you want<br>
-    • The future resource base needed to sustain it
-  </p>
-</details>
+[? if progress > 12 and part-of = "org" : <details><summary>Holistic context for organisations</summary><p>For organisations, the Holistic Context also includes a statement of purpose for the organisation.</p></details> ?]
 
+[? if progress > 22 : <details><summary>Filter questions</summary><p>They are the seven context checks that help you test any action against your holistic context, so you avoid solutions that look good today but create problems tomorrow.</p><p>The seven checks are: <br> • Cause and Effect<br> • Weak Link (social, biological, financial)<br> • Marginal Reaction<br> • Gross Profit Analysis<br> • Energy/Money Source and Use<br> • Sustainability<br> • Gut Feel</p></details> ?]
 
-<details>
-  <summary>What else is included in a Holistic Context for organisations?</summary>
-  <p>For organisations, the Holistic Context also includes a statement of purpose for the organisation.</p>
-</details>
+[? if progress > 23 : <details><summary>When an action fails a check</summary><p>It does not automatically mean “never do it”. It means you have learned where the risk is. You can modify the action, choose a different action, or proceed knowing what you must monitor and control.</p></details> ?]
 
-
-<details>
-  <summary>What are the Filter Questions?</summary>
-  <p>They are the seven context checks that help you test any action against your holistic context, so you avoid solutions that look good today but create problems tomorrow.</p>
-  <p>The seven checks are: <br>
-    • Cause and Effect<br>
-
-    • Weak Link (social, biological, financial)<br>
-
-    • Marginal Reaction<br>
-
-    • Gross Profit Analysis<br>
-
-    • Energy/Money Source and Use<br>
-
-    • Sustainability<br>
-
-    • Gut Feel 
-  </p>
-</details>
-
-
-<details>
-  <summary>What if an action fails a check?</summary>
-  <p>It does not automatically mean “never do it”. It means you have learned where the risk is. You can modify the action, choose a different action, or proceed knowing what you must monitor and control.</p>
-</details>
-
-
-<details>
-  <summary>Why is Gut Feel last?</summary>
-  <p>Because it uses the picture you built from the other checks. It asks how you feel about the action in terms of your values, relationships, and consequences for others.</p>
-</details>
+[? if progress > 33 : <details><summary>Why gut feel is last</summary><p>Because it uses the picture you built from the other checks. It asks how you feel about the action in terms of your values, relationships, and consequences for others.</p></details> ?]

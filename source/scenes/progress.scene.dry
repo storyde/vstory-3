@@ -3,7 +3,7 @@ title: Progress
 # This scene contains information for the left sidebar.
 
 **Progress:** 
-[+ progress : progress +]
+[+ progress : qprogress +]
 
 
 [? if decision-makers != 0 : **Holistic Context: ** ?]
