@@ -1,0 +1,40 @@
+
+# progress
+
+(0..0) : <progress value="0" max="36">0</progress><br>Not started yet
+(1..1) : <progress value="1" max="36">1</progress><br>Welcome screen
+(2..2) : <progress value="2" max="36">2</progress><br>Story introduction
+(3..3) : <progress value="3" max="36">3</progress><br>At the harbour
+(4..4) : <progress value="4" max="36">4</progress><br>Enter the teahouse
+(5..5) : <progress value="5" max="36">5</progress><br>Framework introduction
+(6..6) : <progress value="6" max="36">6</progress><br>Choose organisation sector
+(7..7) : <progress value="7" max="36">7</progress><br>Define decision-makers
+(8..8) : <progress value="8" max="36">8</progress><br>Define org decision-makers
+(9..9) : <progress value="9" max="36">9</progress><br>List physical resources
+(10..10) : <progress value="10" max="36">10</progress><br>List human resources
+(11..11) : <progress value="11" max="36">11</progress><br>List money resources
+(12..12) : <progress value="12" max="36">12</progress><br>Write statement of purpose
+(13..13) : <progress value="13" max="36">13</progress><br>Quality of life intro
+(14..14) : <progress value="14" max="36">14</progress><br>Quality of life: economy
+(15..15) : <progress value="15" max="36">15</progress><br>Quality of life: relationships
+(16..16) : <progress value="16" max="36">16</progress><br>Quality of life: challenge
+(17..17) : <progress value="17" max="36">17</progress><br>Quality of life: purpose
+(18..18) : <progress value="18" max="36">18</progress><br>Finalize QoL statement
+(19..19) : <progress value="19" max="36">19</progress><br>Future resource base: people
+(20..20) : <progress value="20" max="36">20</progress><br>Future resource base: environment
+(21..21) : <progress value="21" max="36">21</progress><br>Holistic context complete
+(22..22) : <progress value="22" max="36">22</progress><br>Choose example decision
+(23..23) : <progress value="23" max="36">23</progress><br>Check: cause and effect
+(24..24) : <progress value="24" max="36">24</progress><br>Checks: weak links intro
+(25..25) : <progress value="25" max="36">25</progress><br>Weak link: social
+(26..26) : <progress value="26" max="36">26</progress><br>Weak link: biological
+(27..27) : <progress value="27" max="36">27</progress><br>Weak link: financial
+(28..28) : <progress value="28" max="36">28</progress><br>Check: marginal reaction
+(29..29) : <progress value="29" max="36">29</progress><br>Check: gross profit
+(30..30) : <progress value="30" max="36">30</progress><br>Energy/money: source check
+(31..31) : <progress value="31" max="36">31</progress><br>Energy/money: use check
+(32..32) : <progress value="32" max="36">32</progress><br>Check: sustainability
+(33..33) : <progress value="33" max="36">33</progress><br>Check: gut feel
+(34..34) : <progress value="34" max="36">34</progress><br>Review results
+(35..35) : <progress value="35" max="36">35</progress><br>Revisit skipped checks
+(36..36) : <progress value="36" max="36">36</progress><br>Finish framework

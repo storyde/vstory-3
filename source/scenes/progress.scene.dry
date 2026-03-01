@@ -1,0 +1,59 @@
+title: Progress
+
+# This scene contains information for the left sidebar.
+
+**Progress:** 
+[+ progress : progress +]
+
+
+[? if decision-makers != 0 : **Holistic Context: ** ?]
+
+[? if decision-makers = 0 : *Build your holistic context to see it here.* ?]
+
+[? if decision-makers != 0 : **Whole Under Management** ?]
+[? if decision-makers != 0 : Decision makers: [+ decision-makers +] ?]
+[? if rb-physical != 0 : Physical resources: [+ rb-physical +] ?]
+[? if rb-human != 0 : People and relationships: [+ rb-human +] ?]
+[? if wum-money != 0 : Money: [+ wum-money +] ?]
+
+[? if part-of = "org" and st-purpose != 0 : **Statement of Purpose** ?]
+[? if part-of = "org" and st-purpose != 0 : [+ st-purpose +] ?]
+
+[? if qol-economic != 0 or qol-relationships != 0 or qol-challenge != 0 or qol-purpose != 0 : **Quality of Life** ?]
+[? if qol-economic != 0 : Economic well-being: [+ qol-economic +] ?]
+[? if qol-relationships != 0 : Relationships: [+ qol-relationships +] ?]
+[? if qol-challenge != 0 : Challenge and growth: [+ qol-challenge +] ?]
+[? if qol-purpose != 0 : Purpose and contribution: [+ qol-purpose +] ?]
+[? if qol-aspiration != 0 : Aspiration: [+ qol-aspiration +] ?]
+[? if qol-accomplish != 0 : Accomplishment: [+ qol-accomplish +] ?]
+
+[? if frb-people != 0 or frb-environment != 0 : **Future Resource Base** ?]
+[? if frb-people != 0 : People: [+ frb-people +] ?]
+[? if frb-environment != 0 : Environment: [+ frb-environment +] ?]
+
+[? if fltr-cause != 0 : **Filter Questions: ** ?]
+
+[? if fltr-cause != 0 : **Cause and Effect** ?]
+[? if fltr-cause != 0 : Cause and Effect: [+ fltr-cause +] ?]
+
+[? if wl-social != 0 or wl-biological != 0 or wl-financial != 0 : **Weak Link** ?]
+[? if wl-social != 0 : Social Weak Link: [+ wl-social +] ?]
+[? if wl-biological != 0 : Biological Weak Link: [+ wl-biological +] ?]
+[? if wl-financial != 0 : Financial Weak Link: [+ wl-financial +] ?]
+
+[? if fltr-marginal != 0 : **Marginal Reaction** ?]
+[? if fltr-marginal != 0 : Marginal Reaction: [+ fltr-marginal +] ?]
+
+[? if fltr-profit != 0 : **Gross Profit** ?]
+[? if fltr-profit != 0 : Gross Profit: [+ fltr-profit +] ?]
+
+[? if em-source != 0 or em-use != 0 : **Energy/Money** ?]
+[? if em-source != 0 : Energy/Money Source: [+ em-source +] ?]
+[? if em-use != 0 : Energy/Money Use: [+ em-use +] ?]
+
+[? if sus-behaviour != 0 or sus-environment != 0 : **Sustainability** ?]
+[? if sus-behaviour != 0 : Behaviour: [+ sus-behaviour +] ?]
+[? if sus-environment != 0 : Environment: [+ sus-environment +] ?]
+
+[? if fltr-gut != 0 : **Gut Feel** ?]
+[? if fltr-gut != 0 : Gut Feel: [+ fltr-gut +] ?]
