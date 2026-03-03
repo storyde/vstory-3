@@ -197,7 +197,7 @@ Me: Environmental scientists and activists.
 
 @dmkrs_pub_transport
 title: Public transport executives, operations managers and staff.
-view-if: sector = "business"
+view-if: sector = "publicservice"
 on-arrival: decision-makers = "Public transport executives, operations managers and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers

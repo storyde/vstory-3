@@ -15,6 +15,7 @@ Facilyn: First, let’s examine the social dimension — how your **Behaviour** 
 
 @fqsus_behavior_explanation
 title: I need help understanding this check
+max-visits: 1
 tags: sus_behavior
 
 Me: I need help understanding this check.
@@ -64,6 +65,7 @@ Facilyn: Now, let's look at the **Environment**. Will this action lead toward or
 
 @fqsus_environment_explanation
 title: I need help understanding this check
+max-visits: 1
 tags: sus_environment
 
 Me: I need help understanding this check.

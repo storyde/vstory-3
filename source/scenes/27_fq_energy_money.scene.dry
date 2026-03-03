@@ -15,6 +15,7 @@ Facilyn: "Is the energy or money to be used in this action derived from the most
 
 @fqem_source_explanation
 title: I need help understanding this check
+max-visits: 1
 tags: em_source
 
 Me: I need help understanding this check.
@@ -65,6 +66,7 @@ Facilyn: "Will the way in which the energy or money is used be in line with our 
 
 @fqem_use_explanation
 title: I need help understanding this check
+max-visits: 1
 tags: em_use
 
 Me: I need help understanding this check.

@@ -50,6 +50,7 @@ Facilyn: "Does this action address the weakest link in the chain of production?"
 
 @fqwl_explanation
 title: I need more clarification on weak links
+max-visits: 1
 tags: weak_links
 
 Me: I need more clarification on weak links.
