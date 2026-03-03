@@ -102,14 +102,6 @@
   - Ask for directions to teahouse
   - Observe people drawing organizational logos in dust
 
-#### 2. The Side Street
-- **Description:** Path to the teahouse marked by red banners
-- **Atmosphere:** Transitional space between chaos and calm
-- **Key Features:**
-  - Red banner markers
-  - Struggling drone being helped by player
-  - Paper lanterns of the teahouse visible
-- **Purpose:** Transition from problem awareness to solution learning
 
 #### 3. The Teahouse
 - **Description:** Traditional space with low tables, herb-scented air
@@ -123,15 +115,6 @@
 
 ### Supporting Locations (Conceptual)
 
-#### Various Organizational Settings
-- **Agriculture:** Farms, cooperatives, ranches
-- **Business:** Stores, insurance companies, railways
-- **Culture:** Arts venues, heritage sites, newsrooms
-- **Education:** Kindergartens, schools, universities
-- **Industry:** Factories, construction sites, logging operations
-- **Nonprofit:** Service centers, advocacy offices, research facilities
-- **Public Service:** Hospitals, government buildings, parks
-- **Policymaking:** Government offices, city halls, embassies
 
 ## Additional Resources
 
@@ -193,7 +176,7 @@
 - **Purpose:** Immerse player in the world's challenges
 - **Key Elements:**
   - Harbour exploration with multiple interaction points
-  - Introduction to polycrisis through stranger encounter
+  - Introduction to polycrisis through vendor encounter
   - Resource scarcity demonstration through vendor
   - Information gathering from screens showing crisis headlines
   - Direction-finding mechanic requiring interaction
@@ -424,9 +407,9 @@
 
 ## Qualities
 
-### Primary Qualities
+### Primary Quality display
 
-#### context_progress (0-7)
+#### progress (0- )
 - **0:** Defining whole under management
 - **1:** Statement of purpose (organisations)
 - **2:** Quality of life formulation
@@ -457,27 +440,18 @@
 3. **Define Whole:** Identify decision makers, resources, and money for management scope
 4. **Create Purpose:** Articulate organizational purpose (for organizations)
 5. **Envision Quality of Life:** Describe desired life qualities
-6. **Plan Future Resource Base:** Define required behaviors and environmental conditions
+6. **Define Future Resource Base:** Define required behaviors and environmental conditions
 7. **Apply Context Checks:** Use seven-step decision-making framework
-8. **Practice Integration:** Apply complete framework to real scenarios
-9. **Develop Long-term Thinking:** Consider generational impacts
-10. **Build Consensus:** Work with stakeholders to create shared context
 
 ### Teaching Methods
 - **Narrative Immersion:** Learn through story and character interaction
 - **Practical Examples:** Use robots, drones, and environmental scenarios
-- **Sector Customization:** Tailor content to player's organizational context
 - **Progressive Disclosure:** Introduce concepts in logical sequence
-- **Choice Consequences:** Show how decisions create different outcomes
 - **Visual Metaphors:** Use world elements to illustrate abstract concepts
-- **Repetition and Reinforcement:** Review concepts through multiple scenes
-- **Application Practice:** Provide scenarios for framework application
 
 ### Assessment Integration
 - **Quality Tracking:** Monitor progress through framework components
-- **Choice Reflection:** Encourage thinking about decision impacts
 - **Context Building:** Accumulate holistic context elements
-- **Scenario Application:** Test framework use in practical situations
 
 ## Technical Implementation Notes
 
@@ -496,15 +470,6 @@
 
 ## Future Development Priorities
 
-### Immediate (Act III)
-1. Complete Quality of Life creation scenes
-2. Implement Future Resource Base definition
-3. Add behavior and condition selection mechanics
-
-### Short-term (Act IV)
-1. Develop all seven context check scenes
-2. Create practical examples for each check
-3. Implement check completion tracking
 
 ### Medium-term (Act V)
 1. Create application scenarios for different sectors
@@ -513,10 +478,6 @@
 
 ### Long-term Enhancements
 1. Additional sector-specific content
-2. More complex decision scenarios
-3. Multiplayer/group decision-making features
-4. Integration with real-world case studies
-5. Assessment and certification components
 
 ---
 
