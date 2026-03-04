@@ -42,13 +42,13 @@
   --info-yellow: #efcf4b;
 
   /* --- Choice Button Colors --- */
-  --choice-normal: #c96d2d;
-  --choice-normal-gradient: #a85622;
-  --choice-rgb: 201, 109, 45;
+  --choice-normal: #8c2b62;
+  --choice-normal-gradient: #752065;
+  --choice-rgb: 140, 43, 98;
   --choice-shadow: rgba(var(--choice-rgb), 0.32);
   --choice-shadow-soft: rgba(var(--choice-rgb), 0.2);
   --choice-active-shadow: rgba(var(--choice-rgb), 0.26);
-  --choice-border-ghost: rgba(var(--choice-rgb), 0.3);
+  --choice-border-ghost: rgba(140, 43, 98, 0.7);
   --choice-bg-ghost: rgba(255, 255, 255, 0.86);
   --choice-text-idle: #1e2022;
   --choice-disabled-bg: rgba(230, 235, 240, 0.95);
@@ -149,14 +149,14 @@
   --danger-rust: #E85555;
   --info-yellow: #efcf4b;
 
-  /* --- Choice Button Colors (Same as light mode) --- */
-  --choice-normal: #d7864a;
-  --choice-normal-gradient: #b96731;
-  --choice-rgb: 215, 134, 74;
+  /* --- Choice Button Colors --- */
+  --choice-normal: #3A041D;
+  --choice-normal-gradient: #4D0826;
+  --choice-rgb: 58, 4, 29;
   --choice-shadow: rgba(var(--choice-rgb), 0.42);
   --choice-shadow-soft: rgba(var(--choice-rgb), 0.28);
   --choice-active-shadow: rgba(var(--choice-rgb), 0.34);
-  --choice-border-ghost: rgba(var(--choice-rgb), 0.54);
+  --choice-border-ghost: rgba(140, 43, 98, 0.7);
   --choice-bg-ghost: rgba(21, 27, 35, 0.86);
   --choice-text-idle: #FFFFFF;
   --choice-disabled-bg: rgba(40, 52, 66, 0.85);
@@ -174,7 +174,7 @@
   --text-light: #FFFFFF;
   --text-inverse: #0A1419;
 
-  /* --- Chat Bubble Colors (Me bubbles same as light mode) --- */
+  /* --- Chat Bubble Colors --- */
   --elements-bg: rgba(26, 47, 61, 0.95);
   --elements-text: #B8D4E6;
   --me-bg: var(--choice-normal);
@@ -850,7 +850,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bubble.me {
-  background: linear-gradient(135deg, var(--me-bg), var(--me-bg-gradient));
+  background: linear-gradient(225deg, var(--me-bg), var(--me-bg-gradient));
   color: var(--me-text);
   text-align: left;
   border-top-right-radius: 4px;
@@ -1035,7 +1035,7 @@ ul.choices li {
 
 ul.choices li:hover,
 ul.choices li:focus {
-  background: linear-gradient(135deg, var(--choice-normal), var(--choice-normal-gradient));
+  background: linear-gradient(225deg, var(--choice-normal), var(--choice-normal-gradient));
   border-color: var(--choice-normal);
   color: #FFFFFF;
   transform: translateY(-1px);
@@ -1054,7 +1054,7 @@ ul.choices li:focus {
 .theme-dark ul.choices li:hover,
 .theme-dark ul.choices li:focus {
   color: #FFFFFF;
-  background: linear-gradient(135deg, var(--choice-normal), var(--choice-normal-gradient));
+  background: linear-gradient(225deg, var(--choice-normal), var(--choice-normal-gradient));
   border-color: var(--choice-normal);
   box-shadow: 0 6px 20px var(--choice-shadow), 0 3px 8px var(--choice-shadow-soft);
 }
@@ -1096,7 +1096,7 @@ ul.choices li:active {
 }
 
 ul.choices li.selected {
-  background: linear-gradient(135deg, var(--choice-normal), var(--choice-normal-gradient));
+  background: linear-gradient(225deg, var(--choice-normal), var(--choice-normal-gradient));
   border-color: var(--choice-normal);
   color: #FFFFFF;
 }
