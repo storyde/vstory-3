@@ -68,7 +68,7 @@ Then he leans back against the tank.
 
 @ask_direction 
 title: Ask for the teahouse
-on-arrival: know-way = 1 
+on-arrival: know-way = 1; progress = 4
 tags: vendor
 
 Me: Can you tell me how to get to the teahouse?

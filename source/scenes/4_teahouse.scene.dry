@@ -1,5 +1,5 @@
 title: Enter the teahouse
-on-arrival: progress = 4
+on-arrival: progress = 5
 tags: th_arrival
 new-page: true
 
@@ -192,6 +192,7 @@ Facilyn: But yes. We built a framework that helps manage complexity.
 
 @what_complexity
 title: What do you mean by "complexity"?
+on-arrival: progress = 6
 tags: better_way
 
 Me: What do you mean by "complexity"?

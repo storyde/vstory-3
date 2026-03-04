@@ -1,5 +1,4 @@
 title: Got it
-on-arrival: progress = 6
 view-if: part-of = "org"
 tags: whole_u_mgmt
 
