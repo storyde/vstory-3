@@ -1,3 +1,4 @@
+(function() {
 // node_modules/lucide/dist/esm/defaultAttributes.js
 var defaultAttributes = {
   xmlns: "http://www.w3.org/2000/svg",
@@ -223,3 +224,4 @@ if (document.readyState === "loading") {
 } else {
   initIcons();
 }
+})();

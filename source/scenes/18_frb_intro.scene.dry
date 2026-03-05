@@ -1,16 +1,9 @@
-title: Finalize my Quality of Life statement
-subtitle: Bringing It All Together
-unavailable-subtitle: Answer all three questions first
-order: 10
-on-arrival: qol-statement-complete = 1; progress = 18
-choose-if: qolp-about = 1 and qolp-be = 1 and qolp-accomplish = 1
+title: Future Resource Base Intro
+on-arrival: progress = 18
 go-to: 19_frb_people
-tags: purpose_questions
 
-Me: Finalize my Quality of Life statement
-
-Facilyn: Alright. Simple or elaborate, the key is that you have total agreement with everyone involved. 
+Facilyn: Alright. Simple or elaborate, the key to your Quality of Life Statement is that you have total agreement with everyone involved and that it is meaningfull to you. 
 
 Facilyn: The last area we need to explore is how your future resource must be to sustain your quality of life. 
 
-Facilyn: There are two elements to it: People and land (environment) — even if your connection to it seems indirect. 
+Facilyn: There are two elements to it. The first one is about people. 
