@@ -9,11 +9,13 @@ new-page: true
 
 🍀 Tell us where to find them. 
 
-= Knowledge
+[? if progress > 6 : <h1>Knowledge: </h1> ?]
 
-[? if progress > 5 : <details><summary>Whole Under Management</summary><p>The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things: <br> • Decision makers <br> • Resource base <br> • Money </p></details> ?]
+[? if progress > 6 : <details><summary>Complexity</summary><p>Complexity refers to self-organising systems that in contrast to machines we do not produce, but manage.</p></details> ?]
 
-[? if progress > 7 : <details><summary>Decision makers</summary><p>Anyone who makes day-to-day decisions, carries them out, or has veto power over them. Being inclusive prevents hidden constraints later.</p></details> ?]
+[? if progress > 7 : <details><summary>Whole Under Management</summary><p>The Whole Under Management is the “unit” you are managing and making decisions for. It is defined by three things: <br> • Decision makers <br> • Resource base <br> • Money </p></details> ?]
+
+[? if progress > 8 : <details><summary>Decision makers</summary><p>Anyone who makes day-to-day decisions, carries them out, or has veto power over them. Being inclusive prevents hidden constraints later.</p></details> ?]
 
 
 [? if progress > 9 : <details><summary>Resource base</summary><p>Everything you rely on to support your quality of life and plans. It includes physical resources (land, buildings, equipment) and human resources (people, partners, customers, neighbours, communities).</p></details> ?]

@@ -10,7 +10,7 @@ title: Progress
 
 <br>
 
-[? if decision-makers = 0 : *Start Exploring to see more.* ?]
+[? if decision-makers = 0 : *Interact for more.* ?]
 
 [? if decision-makers != 0 : <h1>Holistic Context: </h1> ?]
 
