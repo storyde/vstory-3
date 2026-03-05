@@ -23,7 +23,7 @@ title: Progress
 [? if part-of = "org" and st-purpose != 0 : **Statement of Purpose** ?]
 [? if part-of = "org" and st-purpose != 0 : [+ st-purpose +] ?]
 
-[? if qol-economic != 0 or qol-relationships != 0 or qol-challenge != 0 or qol-purpose != 0 : **Quality of Life** ?]
+[? if qol-economic != 0 : **Quality of Life** ?]
 [? if qol-economic != 0 : Economic well-being: [+ qol-economic +] ?]
 [? if qol-relationships != 0 : Relationships: [+ qol-relationships +] ?]
 [? if qol-challenge != 0 : Challenge and growth: [+ qol-challenge +] ?]
