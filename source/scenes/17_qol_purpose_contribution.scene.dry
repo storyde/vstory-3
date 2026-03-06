@@ -29,60 +29,60 @@ Facilyn: What are we about?
 # Purpose - Individual
 
 @qolp_ind_learning
-title: I am about learning and growing
+title: Continuous learning, growth and development
 view-if: part-of = "individual"
-on-arrival: qol-purpose = "I am about learning and growing"
+on-arrival: qol-purpose = "continuous learning, growth and development"
 go-to: qolas_aspiration 
 tags: qol_purpose
 
-Me: I am about learning and growing.
+Me: Continuous learning, growth and development.
 
 @qolp_ind_health
-title: I am about health and wellbeing
+title: Holistic health, vitality and wellbeing
 view-if: part-of = "individual"
-on-arrival: qol-purpose = "I am about health and wellbeing"
+on-arrival: qol-purpose = "holistic health, vitality and wellbeing"
 go-to: qolas_aspiration
 tags: qol_purpose
 
-Me: I am about health and wellbeing.
+Me: Holistic health, vitality and wellbeing.
 
 @qolp_ind_creativity
-title: I am about creativity and innovation
+title: Creativity, innovation and meaningful expression
 view-if: part-of = "individual"
-on-arrival: qol-purpose = "I am about creativity and innovation"
+on-arrival: qol-purpose = "creativity, innovation and meaningful expression"
 go-to: qolas_aspiration
 tags: qol_purpose
 
-Me: I am about creativity and innovation.
+Me: Creativity, innovation and meaningful expression.
 
 # Purpose - Group
 
 @qolp_grp_community
-title: We are about serving our community
+title: Service, connection and community support
 view-if: part-of = "group"
-on-arrival: qol-purpose = "We are about serving our community"
+on-arrival: qol-purpose = "service, connection and community support"
 go-to: qolas_aspiration
 tags: qol_purpose
 
-Me: We are about serving our community.
+Me: Service, connection and community support.
 
 @qolp_grp_sustainability
-title: We are about environmental sustainability
+title: Environmental stewardship and sustainability
 view-if: part-of = "group"
-on-arrival: qol-purpose = "We are about environmental sustainability"
+on-arrival: qol-purpose = "environmental stewardship and sustainability"
 go-to: qolas_aspiration
 tags: qol_purpose
 
-Me: We are about environmental sustainability.
+Me: Environmental stewardship and sustainability.
 
 @qolp_grp_support
-title: We are about supporting each other
+title: Mutual support, care and solidarity
 view-if: part-of = "group"
-on-arrival: qol-purpose = "We are about supporting each other"
+on-arrival: qol-purpose = "mutual support, care and solidarity"
 go-to: qolas_aspiration
 tags: qol_purpose
 
-Me: We are about supporting each other.
+Me: Mutual support, care and solidarity.
 
 # Purpose - Organisation - Statement of Purpose
 
@@ -111,79 +111,79 @@ Facilyn: What do we want to be?
 # Aspiration - All
 
 @qolas_source_strength
-title: A source of strength and stability
-on-arrival: qol-aspiration = "A source of strength and stability"
+title: A grounded source of strength and stability
+on-arrival: qol-aspiration = "a grounded source of strength and stability"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A source of strength and stability
+Me: A grounded source of strength and stability.
 
 @qolas_positive_force
-title: A positive force for change
-on-arrival: qol-aspiration = "A positive force for change"
+title: A positive and transformative force for change
+on-arrival: qol-aspiration = "a positive and transformative force for change"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A positive force for change.
+Me: A positive and transformative force for change.
 
 @qolas_collaborative_partner
-title: A collaborative and supportive partner
-on-arrival: qol-aspiration = "A collaborative and supportive partner"
+title: A collaborative, supportive and inspiring partner
+on-arrival: qol-aspiration = "a collaborative, supportive and inspiring partner"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A collaborative and supportive partner.
+Me: A collaborative, supportive and inspiring partner.
 
 # Aspiration - Individual
 
 @qolas_ind_balanced
-title: A balanced and happy person
+title: A balanced, joyful and fulfilled person
 view-if: part-of = "individual"
-on-arrival: qol-aspiration = "A balanced and happy person"
+on-arrival: qol-aspiration = "a balanced, joyful and fulfilled person"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A balanced and happy person.
+Me: A balanced, joyful and fulfilled person.
 
 @qolas_ind_learner
-title: A lifelong learner and explorer
+title: A curious, lifelong learner and explorer
 view-if: part-of = "individual"
-on-arrival: qol-aspiration = "A lifelong learner and explorer"
+on-arrival: qol-aspiration = "a curious, lifelong learner and explorer"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A lifelong learner and explorer.
+Me: A curious, lifelong learner and explorer.
 
 # Aspiration - Group
 
 @qolas_loving_family
-title: A loving and caring community
+title: A loving, caring and inclusive community
 view-if: part-of = "group"
-on-arrival: qol-aspiration = "A loving and caring community"
+on-arrival: qol-aspiration = "a loving, caring and inclusive community"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: A loving and caring community.
+Me: A loving, caring and inclusive community.
 
 # Aspiration - Organisation
 
 @qolas_resilient_adaptive
-title: Resilient and adaptive to challenges
+title: A resilient, adaptive and thriving organization
 view-if: part-of = "org"
-on-arrival: qol-aspiration = "Resilient and adaptive to challenges"
+on-arrival: qol-aspiration = "a resilient, adaptive and thriving organization"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: Resilient and adaptive to challenges.
+Me: A resilient, adaptive and thriving organization.
 
 @qolas_innovative_pioneer
-title: An innovative pioneer breaking new ground
+title: An innovative pioneer exploring new frontiers
 view-if: part-of = "org"
-on-arrival: qol-aspiration = "An innovative pioneer breaking new ground"
+on-arrival: qol-aspiration = "an innovative pioneer exploring new frontiers"
 go-to: qolac_accomplish
 tags: qol_aspiration
 
-Me: An innovative pioneer breaking new ground.
+Me: An innovative pioneer exploring new frontiers.
 
 # Accomplishment - What do we ultimately want to accomplish?
 
@@ -201,7 +201,7 @@ Facilyn: What do we ultimately want to accomplish?
 
 @qolac_lasting_impact
 title: Create lasting positive impact for future generations
-on-arrival: qol-accomplish = "Create lasting positive impact for future generations"
+on-arrival: qol-accomplish = "create lasting positive impact for future generations"
 go-to: 18_frb_intro
 tags: qol_accomplish
 
@@ -209,76 +209,76 @@ Me: Create lasting positive impact for future generations.
 
 @qolac_regenerate_systems
 title: Regenerate damaged social and ecological systems
-on-arrival: qol-accomplish = "Regenerate damaged social and ecological systems"
+on-arrival: qol-accomplish = "regenerate damaged social and ecological systems"
 go-to: 18_frb_intro
 tags: qol_accomplish
 
 Me: Regenerate damaged social and ecological systems.
 
 @qolac_empower_others
-title: Empower others to reach their potential
-on-arrival: qol-accomplish = "Empower others to reach their potential"
+title: Empower others to reach their full potential
+on-arrival: qol-accomplish = "empower others to reach their full potential"
 go-to: 18_frb_intro
 tags: qol_accomplish
 
-Me: Empower others to reach their potential.
+Me: Empower others to reach their full potential.
 
 # Accomplishment - Individual
 
 @qolac_ind_meaning
-title: Live a life of meaning and joy
+title: Live a life of deep meaning and joy
 view-if: part-of = "individual"
-on-arrival: qol-accomplish = "Live a life of meaning and joy"
+on-arrival: qol-accomplish = "live a life of deep meaning and joy"
 go-to: 18_frb_intro
 tags: qol_accomplish
 
-Me: Live a life of meaning and joy.
+Me: Live a life of deep meaning and joy.
 
 @qolac_ind_potential
-title: Realize my unique potential
+title: Realize and express my unique potential
 view-if: part-of = "individual"
-on-arrival: qol-accomplish = "Realize my unique potential"
+on-arrival: qol-accomplish = "realize and express my unique potential"
 go-to: 18_frb_intro
 tags: qol_accomplish
 
-Me: Realize my unique potential.
+Me: Realize and express my unique potential.
 
 # Accomplishment - Group
 
 @qolac_grp_resilient
-title: Build a resilient and supportive community
+title: Build a resilient, supportive and vibrant community
 view-if: part-of = "group"
-on-arrival: qol-accomplish = "Build a resilient and supportive community"
+on-arrival: qol-accomplish = "build a resilient, supportive and vibrant community"
 go-to: 18_frb_intro
 tags: qol_accomplish
 
-Me: Build a resilient and supportive community.
+Me: Build a resilient, supportive and vibrant community.
 
 @qolac_bridge_divides
-title: Bridge divides and build understanding
+title: Bridge divides and foster deep understanding
 view-if: part-of = "group"
-on-arrival: qol-accomplish = "Bridge divides and build understanding"
+on-arrival: qol-accomplish = "bridge divides and foster deep understanding"
 go-to: 18_frb_intro
 tags: qol_accomplish
 
-Me: Bridge divides and build understanding.
+Me: Bridge divides and foster deep understanding.
 
 # Accomplishment - Organisation
 
 @qolac_solve_problems
-title: Solve important problems that matter
+title: Solve meaningful problems that truly matter
 view-if: part-of = "org"
-on-arrival: qol-accomplish = "Solve important problems that matter"
+on-arrival: qol-accomplish = "solve meaningful problems that truly matter"
 go-to: 18_frb_intro
 tags: qol_accomplish
 
-Me: Solve important problems that matter.
+Me: Solve meaningful problems that truly matter.
 
 @qolac_org_ethical
-title: Lead the way in ethical innovation
+title: Lead the way in ethical and responsible innovation
 view-if: part-of = "org"
-on-arrival: qol-accomplish = "Lead the way in ethical innovation"
+on-arrival: qol-accomplish = "lead the way in ethical and responsible innovation"
 go-to: 18_frb_intro
 tags: qol_accomplish
 
-Me: Lead the way in ethical innovation.
+Me: Lead the way in ethical and responsible innovation.

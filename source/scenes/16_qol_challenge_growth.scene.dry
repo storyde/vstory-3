@@ -2,9 +2,9 @@ title: Challenge and Growth
 subtitle: What Stimulates and Develops Us
 on-arrival: progress = 16
 
-Facilyn: Now we will look into the challenges and growth you seek. Think in terms of what you find stimulating, what requires all the resourcefulness and creativity you can muster.
+Facilyn: Now we will look where you find challenge and growth. What calls for your creativity, what do you find stimulating?
 
-Facilyn: What kind of challenge and growth environment do you want?
+Facilyn: What kind of activity or work environment helps you become all you can be?
 
 - #challenge_aspects
 
@@ -15,13 +15,15 @@ tags: challenge_aspects
 
 Me: Please explain a bit further.
 
-Facilyn: Think about what energizes you and pushes you to grow. What sort of working environment stimulates creativity and allows you to reach your full potential? Focus on the conditions that bring out your best.
+Facilyn: Think about what energizes you and pushes you to grow. What sort of working environment stimulates resourcefulness and allows you to reach your full potential? Focus on what brings out your best.
 
-Facilyn: Challenge and growth aren't about stress or difficulty for their own sake - they're about engaging your capabilities fully and expanding them.
+Facilyn: Challenge and growth aren't about stress or difficulty for their own sake — they're about engaging your capabilities fully and expanding them.
 
 A cleaning robot methodically works its way around the teahouse, pausing to contemplate a particularly stubborn tea stain with what appears to be genuine philosophical concern.
 
 - #challenge_aspects
+
+# Challenge - All
 
 @qolcg_future_generations
 title: The challenge of stewardship: offering hope to future generations
@@ -31,56 +33,68 @@ tags: challenge_aspects
 
 Me: The challenge of stewardship: offering hope to future generations.
 
-@qolcg_clarity_creation
-title: Creating clarity and direction where none existed before
-on-arrival: qol-challenge = "Creating clarity and direction where none existed before"
+@qolcg_curious_life
+title: Work that keeps us curious and demands patience and pushing boundaries.
+on-arrival: qol-challenge = "Work that keeps us curious and demands patience and pushing boundaries."
 go-to: 17_qol_purpose_contribution
 tags: challenge_aspects
 
-Me: Creating clarity and direction where none existed before.
+Me: Work that sparks curiosity and demands pushing boundaries.
 
-@qolcg_stretching_comfort
-title: Constantly pushing boundaries and learning
-on-arrival: qol-challenge = "Constantly pushing boundaries and learning"
+# Challenge - Individual
+
+@qolcg_ind_growth
+title: Cultivating patience and fostering personal development.
+view-if: part-of = "individual"
+on-arrival: qol-challenge = "Cultivating patience and fostering personal development."
 go-to: 17_qol_purpose_contribution
 tags: challenge_aspects
 
-Me: Constantly pushing boundaries and learning.
+Me: Cultivating patience and fostering personal development.
+
+@qolcg_ind_spiritual
+title: Spiritual or religious beliefs providing guidance and meaning
+view-if: part-of = "individual"
+on-arrival: qol-challenge = "Spiritual or religious beliefs providing guidance and meaning"
+go-to: 17_qol_purpose_contribution
+tags: challenge_aspects
+
+Me: Spiritual or religious beliefs providing guidance and meaning.
+
+# Challenge - Group
+
+@qolcg_grp_integrity
+title: Free to act with integrity and according to our convictions
+view-if: part-of = "group"
+on-arrival: qol-challenge = "Free to act with integrity and according to our convictions"
+go-to: 17_qol_purpose_contribution
+tags: challenge_aspects
+
+Me: Free to act with integrity and according to our convictions.
 
 @qolcg_experimentation_space
 title: A fearless space for experimentation and being humbled by nature's wisdom
+view-if: part-of = "group"
 on-arrival: qol-challenge = "A fearless space for experimentation and being humbled by nature's wisdom"
 go-to: 17_qol_purpose_contribution
 tags: challenge_aspects
 
 Me: A fearless space for experimentation and being humbled by nature's wisdom.
 
-@qolcg_navigating_unknown
-title: Navigating the unknown with radical curiosity and the courage to explore
-on-arrival: qol-challenge = "Navigating the unknown with radical curiosity and the courage to explore"
+# Challenge - Organisation
+
+@qolcg_clarity_creation
+title: Creating clarity and direction where none existed before
+view-if: part-of = "org"
+on-arrival: qol-challenge = "Creating clarity and direction where none existed before"
 go-to: 17_qol_purpose_contribution
 tags: challenge_aspects
 
-Me: Navigating the unknown with radical curiosity and the courage to explore.
-
-@qolcg_psychological_safety
-title: Creating psychological safety that empowers us to take risks
-on-arrival: qol-challenge = "Creating psychological safety that empowers us to take risks"
-go-to: 17_qol_purpose_contribution
-tags: challenge_aspects
-
-Me: Creating psychological safety that empowers us to take risks.
-
-@qolcg_deep_questions
-title: Grappling with deep questions that demand patience and wisdom
-on-arrival: qol-challenge = "Grappling with deep questions that demand patience and wisdom"
-go-to: 17_qol_purpose_contribution
-tags: challenge_aspects
-
-Me: Grappling with deep questions that demand patience and wisdom.
+Me: Creating clarity and direction where none existed before.
 
 @qolcg_freedom_flow
 title: The exhilaration of autonomy, where freedom and responsibility merge into creative flow
+view-if: part-of = "org"
 on-arrival: qol-challenge = "The exhilaration of autonomy, where freedom and responsibility merge into creative flow"
 go-to: 17_qol_purpose_contribution
 tags: challenge_aspects

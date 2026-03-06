@@ -2,11 +2,11 @@ title: Completed holistic context
 on-arrival: progress = 21
 new-page: true
 
-Facilyn: Excellent. You now have a complete holistic context — your whole under management, your quality of life statement, and your future resource base description.
+Facilyn: Excellent. You now have your complete holistic context — your whole under management, your quality of life statement, and your future resource base description — capture in simple phrases.
 
-Facilyn: If we phrase it in full sentences, it can read like this:
+Facilyn: If you later want to edit it into full sentences, it can read like this:
 
-Paper: <h1>Holistic Context:</h1><br> [+ pronoun +] want to have [+ qol-economic +] and relationships full of [+ qol-relationships +]. [+ pronoun +] see [+ possadj +] challange in [+ qol-challenge +]. [+ possadj +] purpose is to be [+ qol-purpose +]. [+ pronoun +] want to be [+ qol-aspiration +] and contribute to [+ qol-accomplish +]. <br> [+ pronoun +] will be [+ frb-people +]. All to be ensured, for many generations to come, on a foundation of [+ frb-environment +].
+Paper: <h1>Holistic Context:</h1><br> [+ pronoun +] want a life that includes [+ qol-economic +] and relationships grounded in [+ qol-relationships +]. [+ pronoun +] embrace challenge and growth through [+ qol-challenge +]. [+ qol-purpose +]. [+ pronoun +] seek to be [+ qol-aspiration +] and to [+ qol-accomplish +]. <br> [+ pronoun +] will be [+ frb-people +]. All to be ensured, for many generations to come, on a foundation of [+ frb-environment +].
 
 Facilyn: Remember, this version is somewhat generic, built from the options you were given. To make it yours, write one [? if part-of != "individual" : together ?] in your own words and ensure every decision maker shares a complete understanding of what each statement means. 
 
@@ -14,7 +14,11 @@ Facilyn: When every decision maker has ownership in it and sees their deepest va
 
 Facilyn: This holistic context will then serve as your North Star. It is not a goal to be achieved, but a guide for your daily decisions while managing complexity, ensuring you always stay on course. Just like the compass on the ships leaving this harbour.
 
-Facilyn: To help you use it effectively, we use seven testing questions. They filter out actions that might look good today but would take you off course tomorrow.
+Facilyn: Let's place it into the left sidebar, so you can still see it.
+
+She places a new sheet of paper on the table.
+
+Facilyn: To help you use your holistic context effectively, we use seven testing questions. They filter out actions that might look good today but would take you off course tomorrow.
 
 - #holtext_complete
 
