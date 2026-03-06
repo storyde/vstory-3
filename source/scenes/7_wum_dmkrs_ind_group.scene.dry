@@ -2,6 +2,7 @@ title: Got it
 view-if: part-of = "individual"
 on-arrival: progress = 8
 tags: whole_u_mgmt
+new-page: true
 
 Me: Got it.
 

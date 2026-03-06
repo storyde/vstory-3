@@ -1,6 +1,7 @@
 title: Got it
 view-if: part-of = "org"
 tags: whole_u_mgmt
+new-page: true
 
 Me: Got it.
 

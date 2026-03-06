@@ -1731,11 +1731,10 @@ ul.choices li:focus-visible {
 /* Read Marker Styles */
 #read-marker {
   position: relative;
-  height: 10px;
+  height: 8px;
   margin: var(--space-xxl) 0;
   background: linear-gradient(90deg, var(--accent-blue), transparent, transparent, var(--accent-blue));
   border: none;
-  box-shadow: 0 0 0 1px var(--border-light);
   overflow: visible;
   animation: markerPulse 4s ease-in-out infinite;
   border-radius: 999px;
