@@ -22,7 +22,7 @@ You came here:
 @by_yourself
 title: On my own 
 subtitle: Currently without company
-on-arrival: part-of = "individual"; pronoun = "I"; possadj = "my"
+on-arrival: part-of = "individual"; pronoun = "I"; possadj = "my"; verb = "am"
 go-to: 3_harbour
 tags: here_with
 
@@ -30,7 +30,7 @@ Me: On my own.
 
 @with_group
 title: With family or friends
-on-arrival: part-of = "group"; pronoun = "We"; possadj = "our"
+on-arrival: part-of = "group"; pronoun = "We"; possadj = "our"; verb = "are"
 go-to: 3_harbour
 tags: here_with
 
@@ -39,7 +39,7 @@ Me: As a group.
 @for_organization
 title: On behalf of my organisation
 subtitle: Or with colleagues
-on-arrival: part-of = "org"; pronoun = "We"; possadj = "our"
+on-arrival: part-of = "org"; pronoun = "We"; possadj = "our"; verb = "are"
 go-to: 3_harbour
 tags: here_with
 
