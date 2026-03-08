@@ -1743,7 +1743,7 @@ ul.choices li:focus-visible {
 
 /* Read Marker label via pseudo-element */
 #read-marker::before {
-  content: "⚓  New Content Below  ⚓";
+  content: "↓  New Content Below  ↓";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1752,7 +1752,7 @@ ul.choices li:focus-visible {
   font-size: clamp(var(--font-size-xs), 3vw, var(--font-size-sm));
   font-weight: 700;
   letter-spacing: 0.12em;
-  color: var(--text-primary);
+  color: var(--accent-rust);
   white-space: nowrap;
 }
 
