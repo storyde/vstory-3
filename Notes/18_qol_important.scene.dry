@@ -65,15 +65,6 @@ tags: priority_aspects
 
 Me: Fostering the wellbeing of our community.
 
-@qolp_shared_traditions
-title: Preserving and celebrating our shared traditions
-view-if: part-of = "group"
-on-arrival: qol-priority = "Preserving and celebrating our shared traditions"
-go-to: 18_frb_intro
-tags: priority_aspects
-
-Me: Preserving and celebrating our shared traditions.
-
 # Priority - Organisation
 
 @qolp_employee_wellbeing

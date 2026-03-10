@@ -9,6 +9,10 @@ tags: root
 
 Some Text <br> manual line break
 
+Paper: <textarea id="textarea" rows="4" cols="40" placeholder="Add here anything you are missing." oninput="window.dendryUI && window.dendryUI.dendryEngine && (window.dendryUI.dendryEngine.state.qualities.textarea = this.value);"></textarea>
+
+Me: [+ textarea +]
+
 > Quote
 
 >> Attribution
@@ -44,5 +48,12 @@ In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('30_fq_resu
 # TODO: hover-over
 
 {!<a href="#" onmouseover="this.innerHTML='Mouse is over';" onmouseout="this.innerHTML='Mouseover';">Mouseover</a>!}
+
+- @want
+
+@want
+title: See what I want
+
+Me: [+ textarea +]
 
 - @backSpecialScene: Back

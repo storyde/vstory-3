@@ -3,7 +3,7 @@ on-arrival: progress = 16
 
 Facilyn: Now we will look where you find challenge and growth. What calls for your creativity, what do you find stimulating?
 
-Facilyn: What kind of activity or work environment helps you become all you can be?
+Facilyn: What kind of activity helps you become all you can be?
 
 - #challenge_aspects
 
@@ -53,15 +53,6 @@ Me: Cultivating patience and fostering personal development.
 
 # Challenge - Group
 
-@qolcg_grp_integrity
-title: Free to act with integrity and according to our convictions
-view-if: part-of = "group"
-on-arrival: qol-challenge = "Free to act with integrity and according to our convictions"
-go-to: qolcg_growth
-tags: challenge_aspects
-
-Me: Free to act with integrity and according to our convictions.
-
 @qolcg_experimentation_space
 title: A fearless space for experimentation and being humbled by nature's wisdom
 view-if: part-of = "group"
@@ -94,6 +85,8 @@ Me: The exhilaration of autonomy, where freedom and responsibility merge into cr
 # Growth
 
 @qolcg_growth
+title: Growth
+
 Facilyn: Now, what do you want to be free to do for inner growth?
 
 - #growth_aspects
@@ -118,6 +111,14 @@ go-to: 17_qol_purpose_contribution
 tags: growth_aspects
 
 Me: Expanding horizons through continuous learning and discovery.
+
+@qolcg_shared_traditions
+title: Preserving and celebrating our shared traditions
+on-arrival: qol-priority = "Preserving and celebrating our shared traditions"
+go-to: 17_qol_purpose_contribution
+tags: growth_aspects
+
+Me: Preserving and celebrating our shared traditions.
 
 @qolcg_growth_balance
 title: Finding balance and harmony between work, life, and nature
@@ -148,6 +149,15 @@ tags: growth_aspects
 Me: Cultivating inner peace and emotional resilience.
 
 # Growth - Group
+
+@qolcg_growth_integrity
+title: Free to act with integrity and according to our convictions
+view-if: part-of = "group"
+on-arrival: qol-challenge = "Free to act with integrity and according to our convictions"
+go-to: qolcg_growth
+tags: challenge_aspects
+
+Me: Free to act with integrity and according to our convictions.
 
 @qolcg_growth_connection
 title: Deepening connection and trust within our community

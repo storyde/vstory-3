@@ -2,9 +2,9 @@ title: Completed holistic context
 on-arrival: progress = 21
 new-page: true
 
-Facilyn: Excellent. You now have your complete holistic context — your whole under management, your quality of life statement, and your future resource base description — capture in simple phrases.
+Facilyn: Excellent. You now have your complete holistic context — your whole under management, your quality of life statement, and your future resource base description — captured in simple phrases.
 
-Facilyn: If you later want to edit it into full sentences, it can read like this:
+Facilyn: If we want to edit it into full sentences, it could read like this:
 
 [? if part-of = "individual" : Paper: <h1>Holistic Context:</h1><br>I want a life that includes [+ qol-economic +] and relationships grounded in [+ qol-relationships +]. I thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. I find purpose in being [+ qol-purpose +]. I seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br><br>I will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
 
