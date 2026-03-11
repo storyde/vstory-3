@@ -14,6 +14,7 @@ Facilyn: What aspects of economic well-being improve your quality of life? Focus
 @qolew_explanation
 title: I am not sure...
 max-visits: 1
+order: 10
 tags: economic_aspects
 
 Me: I am not sure...
@@ -32,8 +33,6 @@ tags: economic_aspects
 
 Me: Nutritious food, clean water, warm clothing, a safe home, good health and security.
 
-Facilyn: Fundamental and wise. When basic needs like food, clothing, and shelter are reliably met, you're free to focus on growth and contribution rather than survival.
-
 @qolew_economic_security
 title: Reliable food, clean water, shelter, good health and security, plus the ability to help others
 on-arrival: qol-economic = "Reliable food, clean water, shelter, good health and security, plus the ability to help others"
@@ -41,8 +40,6 @@ go-to: qolewb_balance
 tags: economic_aspects
 
 Me: Reliable food, clean water, shelter, good health and security, plus the ability to help others.
-
-Facilyn: Excellent. Economic security means having enough resources to cover uncertainties and plan for the future. The capacity to look outward and support others can turn personal success into shared well-being.
 
 @qolew_comfortable_surroundings
 title: A comfortable home, secure health care, and the basics covered (food, water, clothing and safety)
@@ -52,8 +49,6 @@ tags: economic_aspects
 
 Me: A comfortable home, secure health care, and the basics covered (food, water, clothing and safety).
 
-Facilyn: Yes, the ability to live in environments that nurture and sustain you. Economic well-being as a foundation for choice and self-determination.
-
 @qolew_health_and_vitality
 title: Resources for good health and security, with reliable food, clean water, clothing and shelter
 on-arrival: qol-economic = "Resources for good health and security, with reliable food, clean water, clothing and shelter"
@@ -61,8 +56,6 @@ go-to: qolewb_balance
 tags: economic_aspects
 
 Me: Resources for good health and security, with reliable food, clean water, clothing and shelter.
-
-Facilyn: Essential. Economic well-being is vital for meeting basic human needs for health and security. It's about having the means to protect and care for yourself and your loved ones.
 
 # Balance
 
@@ -75,7 +68,7 @@ Facilyn: Which aspects resonate most with you?
 
 - #balance_aspects
 
-# Priority - All
+# Balance - All
 
 @qolewb_health_education
 title: Good health, good education, and time for family, friends and community
@@ -93,7 +86,7 @@ tags: balance_aspects
 
 Me: A balanced life with leisure, cultural pursuits, and time for family and friends.
 
-# Priority - Individual
+# Balance - Individual
 
 @qolewb_family_friends
 title: Quality time with family and friends, plus education and leisure for cultural pursuits
@@ -104,6 +97,15 @@ tags: balance_aspects
 
 Me: Quality time with family and friends, plus education and leisure for cultural pursuits.
 
+@qolew_travel_and_experience
+title: Resources for food, clean water, health and security, plus travel and life experiences
+view-if: part-of = "individual"
+on-arrival: qol-economic = "Resources for food, clean water, health and security, plus travel and life experiences"
+go-to: 15_qol_relationships
+tags: economic_aspects
+
+Me: Resources to travel and experience the world.
+
 @qolewb_cultural_pursuits
 title: Cultural and artistic pursuits, supported by education and time for family and friends
 view-if: part-of = "individual"
@@ -113,7 +115,7 @@ tags: balance_aspects
 
 Me: Cultural and artistic pursuits, supported by education and time for family and friends.
 
-# Priority - Group
+# Balance - Group
 
 @qolewb_community_wellbeing
 title: Community wellbeing, with time for family and friends, education, and leisure for culture
@@ -124,7 +126,7 @@ tags: balance_aspects
 
 Me: Community wellbeing, with time for family and friends, education, and leisure for culture.
 
-# Priority - Organisation
+# Balance - Organisation
 
 @qolewb_employee_wellbeing
 title: Member wellbeing, with learning, community connection, and time for family and leisure
@@ -134,11 +136,3 @@ go-to: 15_qol_relationships
 tags: balance_aspects
 
 Me: Member wellbeing, with learning, community connection, and time for family and leisure.
-
-@qolew_travel_and_experience
-title: Resources for food, clean water, health and security, plus travel and life experiences
-on-arrival: qol-economic = "Resources for food, clean water, health and security, plus travel and life experiences"
-go-to: 15_qol_relationships
-tags: economic_aspects
-
-Me: Resources to travel and experience the world.

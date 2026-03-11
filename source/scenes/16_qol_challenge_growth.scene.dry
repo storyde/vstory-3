@@ -10,6 +10,7 @@ Facilyn: What kind of challenges help you become all you can be?
 @qolc_explanation
 title: Please explain a bit further
 max-visits: 1
+order: 10
 tags: challenge_aspects
 
 Me: Please explain a bit further.
@@ -96,6 +97,7 @@ Facilyn: What do you want to be free to do in terms of inner growth?
 @qolg_explanation
 title: Please explain a bit further
 max-visits: 1
+order: 10
 tags: growth_aspects
 
 Me: Please explain a bit further.

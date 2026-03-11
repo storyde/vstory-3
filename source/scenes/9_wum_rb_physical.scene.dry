@@ -15,6 +15,7 @@ Facilyn: Now we identify your major physical resources from which you can genera
 @rbph_explanation
 title: Why identify physical resources?
 max-visits: 1
+order: 10
 tags: physical_rcs
 
 Me: Why identify physical resources?

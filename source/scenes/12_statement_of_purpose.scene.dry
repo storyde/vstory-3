@@ -9,6 +9,7 @@ Facilyn: Next, we need a Statement of Purpose of your organisation. So, how woul
 @stmp_explanation
 title: I am not sure what a Statement of Purpose is.
 max-visits: 1
+order: 10
 tags: st_purpose
 
 Me: I am not sure what a Statement of Purpose is.

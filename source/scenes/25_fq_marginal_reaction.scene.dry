@@ -1,11 +1,6 @@
-title: Finalize the weak link check
-subtitle: Next filter question
-unavailable-subtitle: Consider all three areas first
-order: 10
+title: Marginal reaction
 on-arrival: progress = 28
-choose-if: wl-type-s = 1 and wl-type-b = 1 and wl-type-f = 1
 new-page: true
-tags: weak_links
 
 Facilyn: The marginal reaction check helps you optimize your use of time, money, and energy when comparing two or more actions that have passed the other checks: 
 
@@ -16,6 +11,7 @@ Facilyn: "Which action will provide the greatest return toward the goal for each
 @fqmr_explanation
 title: I need help understanding this check
 max-visits: 1
+order: 10
 tags: marginal_reaction
 
 Me: I need help understanding this check.

@@ -11,6 +11,7 @@ Facilyn: "What are we about?"
 @qolp_explanation
 title: What are these questions for?
 max-visits: 1
+order: 10
 tags: qol_purpose
 
 Me: What are these questions for?

@@ -11,6 +11,7 @@ Facilyn: What kind of decision would you like to work through?
 @xmpl_explanation
 title: I am not sure
 max-visits: 1
+order: 10
 tags: example_types
 
 Me: I am not sure.
