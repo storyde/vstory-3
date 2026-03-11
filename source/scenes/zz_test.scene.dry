@@ -43,17 +43,24 @@ In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('18_frb_int
 
 In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('21_holtext');">21_holtext</a>!}
 
-In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('30_fq_results');">30_fq_results</a>!}
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('32_framework_outro');">32_framework_outro</a>!}
 
 # TODO: hover-over
 
 {!<a href="#" onmouseover="this.innerHTML='Mouse is over';" onmouseout="this.innerHTML='Mouseover';">Mouseover</a>!}
 
-- @want
+- @script_test
 
-@want
-title: See what I want
+@script_test
+title: I'd like to start the framework from the beginning
+game-over: false
 
-Me: [+ textarea +]
+Me: I'd like to start the framework from the beginning.
+
+<script>
+setTimeout(function () {
+  window.location.href = window.location.pathname + window.location.search;
+}, 100);
+</script>
 
 - @backSpecialScene: Back
