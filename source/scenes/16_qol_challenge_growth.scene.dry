@@ -118,7 +118,7 @@ Me: Expanding horizons through continuous learning and discovery.
 
 @qolg_traditions
 title: Preserving and celebrating our shared traditions
-on-arrival: qol-priority = "Preserving and celebrating our shared traditions"
+on-arrival: qol-growth = "Preserving and celebrating our shared traditions"
 go-to: 17_qol_purpose
 tags: growth_aspects
 
@@ -157,9 +157,9 @@ Me: Cultivating inner peace and emotional resilience.
 @qolg_integrity
 title: Free to act with integrity and according to our convictions
 view-if: part-of = "group"
-on-arrival: qol-challenge = "Free to act with integrity and according to our convictions"
+on-arrival: qol-growth = "Free to act with integrity and according to our convictions"
 go-to: 17_qol_purpose
-tags: challenge_aspects
+tags: growth_aspects
 
 Me: Free to act with integrity and according to our convictions.
 
