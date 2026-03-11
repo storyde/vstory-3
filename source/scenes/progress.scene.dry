@@ -25,14 +25,17 @@ title: Progress
 
 [? if qol-economic != 0 : **Quality of Life** ?]
 [? if qol-economic != 0 : Economic well-being: [+ qol-economic +] ?]
+[? if qol-balance != 0 : Have time for: [+ qol-balance +] ?]
 [? if qol-relationships != 0 : Relationships: [+ qol-relationships +] ?]
-[? if qol-challenge != 0 : Challenge and growth: [+ qol-challenge +] ?]
+[? if qol-challenge != 0 : Challenge: [+ qol-challenge +] ?]
+[? if qol-growth != 0 : Growth: [+ qol-growth +] ?]
 [? if qol-purpose != 0 and part-of = "individual" : I am about: [+ qol-purpose +] ?]
 [? if qol-purpose != 0 and part-of != "individual" : We are about: [+ qol-purpose +] ?]
 [? if qol-aspiration != 0 and part-of = "individual" : I want to be: [+ qol-aspiration +] ?]
 [? if qol-aspiration != 0 and part-of != "individual" : We want to be: [+ qol-aspiration +] ?]
 [? if qol-accomplish != 0 and part-of = "individual" : I ultimately want to accomplish: [+ qol-accomplish +] ?]
 [? if qol-accomplish != 0 and part-of != "individual" : We ultimately want to accomplish: [+ qol-accomplish +] ?]
+[? if textarea != 0 : [+ textarea +] ?]
 
 [? if frb-people != 0 or frb-environment != 0 : **Future Resource Base** ?]
 [? if frb-people != 0 : Our behaviour: [+ frb-people +] ?]
