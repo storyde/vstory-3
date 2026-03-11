@@ -1130,7 +1130,6 @@ ul.choices li.unavailable {
   opacity: 0.92;
 }
 
-
 /* Bottom Spacer */
 .bottom-spacer {
   height: 80px;
@@ -1141,8 +1140,10 @@ ul.choices li.unavailable {
 #textarea {
   width: 100%;
   max-width: 100%;
+  min-height: 6em;
   box-sizing: border-box;
   display: block;
+  font: inherit;
 }
 
 #progress progress {

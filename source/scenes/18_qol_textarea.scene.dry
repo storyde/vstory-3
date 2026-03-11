@@ -2,12 +2,14 @@ title: Add what you are missing
 go-to: 19_frb_people
 on-arrival: progress = 18
 
-Facilyn: You now have your Quality of Life Statement captured in simple phrases. The key to your Quality of Life Statement is, that you have total agreement with everyone involved and that it is meaningfull to you. 
+Facilyn: You now have your Quality of Life Statement captured in simple phrases. 
+
+Facilyn: The key to your Quality of Life Statement is, that you have total agreement with everyone involved and that it is meaningfull to you. 
 
 Facilyn: If there is anything in your life deeply important to you, that wasn't named so far, now is the time to add it to your Quality of Life Statement.
 
-Facilyn: But note that you are not committing to any specific practice or solution, but only writing about how you want your life to be.
+Facilyn: Make sure to not write down any specific solution, but only how you want your life to be.
 
-[? if part-of = "individual" : Paper: <h1>Quality of Life:</h1><br>**Economic well-being:** [+ qol-economic +] <br>**Relationships:** [+ qol-relationships +] <br>**Challenge and growth:** [+ qol-challenge +] <br>**I am about:** [+ qol-purpose +] <br>**I want to be:** [+ qol-aspiration +] <br>**I ultimately want to accomplish:** [+ qol-accomplish +] <br> <br> <textarea id="textarea" rows="4" cols="40" placeholder="Add here anything you are missing." oninput="window.dendryUI && window.dendryUI.dendryEngine && (window.dendryUI.dendryEngine.state.qualities.textarea = this.value);"></textarea> ?]
+[? if part-of = "individual" : Paper: <h1>Quality of Life:</h1><br>**Economic well-being:** [+ qol-economic +] <br>**Relationships:** [+ qol-relationships +] <br>**Challenge and growth:** [+ qol-challenge +] <br>**I am about:** [+ qol-purpose +] <br>**I want to be:** [+ qol-aspiration +] <br>**I ultimately want to accomplish:** [+ qol-accomplish +] <br> <br> <textarea id="textarea" placeholder="Add here anything you are missing." oninput="window.dendryUI && window.dendryUI.dendryEngine && (window.dendryUI.dendryEngine.state.qualities.textarea = this.value);"></textarea> ?]
 
-[? if part-of != "individual" : Paper: <h1>Quality of Life:</h1><br>**Economic well-being:** [+ qol-economic +] <br>**Relationships:** [+ qol-relationships +] <br>**Challenge and growth:** [+ qol-challenge +] <br>**We are about:** [+ qol-purpose +] <br>**We want to be:** [+ qol-aspiration +] <br>**We ultimately want to accomplish:** [+ qol-accomplish +] <br> <br> <textarea id="textarea" rows="4" cols="40" placeholder="Add here anything you are missing." oninput="window.dendryUI && window.dendryUI.dendryEngine && (window.dendryUI.dendryEngine.state.qualities.textarea = this.value);"></textarea> ?]
+[? if part-of != "individual" : Paper: <h1>Quality of Life:</h1><br>**Economic well-being:** [+ qol-economic +] <br>**Relationships:** [+ qol-relationships +] <br>**Challenge and growth:** [+ qol-challenge +] <br>**We are about:** [+ qol-purpose +] <br>**We want to be:** [+ qol-aspiration +] <br>**We ultimately want to accomplish:** [+ qol-accomplish +] <br> <br> <textarea id="textarea" placeholder="Add here anything you are missing." oninput="window.dendryUI && window.dendryUI.dendryEngine && (window.dendryUI.dendryEngine.state.qualities.textarea = this.value);"></textarea> ?]
