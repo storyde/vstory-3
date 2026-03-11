@@ -1138,6 +1138,51 @@ ul.choices li.unavailable {
 }
 
 /* Dendry Content Styling */
+#textarea {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+#progress progress {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 12px;
+  border-radius: 999px;
+  overflow: hidden;
+  display: block;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid var(--border-light);
+  background: rgba(var(--accent-sky-rgb), 0.14);
+}
+
+#progress progress::-webkit-progress-bar {
+  background: rgba(var(--accent-sky-rgb), 0.14);
+  border-radius: 999px;
+}
+
+#progress progress::-webkit-progress-value {
+  background: linear-gradient(90deg, var(--accent-sky), var(--accent-blue));
+  border-radius: 999px;
+}
+
+#progress progress::-moz-progress-bar {
+  background: linear-gradient(90deg, var(--accent-sky), var(--accent-blue));
+  border-radius: 999px;
+}
+
+.theme-dark #progress progress {
+  border-color: rgba(61, 91, 102, 0.35);
+  background: rgba(var(--accent-sky-rgb), 0.18);
+}
+
+.theme-dark #progress progress::-webkit-progress-bar {
+  background: rgba(var(--accent-sky-rgb), 0.18);
+}
+
 #content h1 {
   margin: var(--space-xxl) 0 var(--space-lg) 0;
   font-size: var(--font-size-xl);
