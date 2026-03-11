@@ -1,7 +1,6 @@
 title: Sustainability Check
 subtitle: Long-term Thinking
 on-arrival: progress = 32
-new-page: true
 
 Facilyn: The sustainability check asks you about the long-term social and environmental consequences of your actions:
 
@@ -58,7 +57,7 @@ Facilyn: Be careful. This check almost always applies.
 # Environment
 
 @fqsus_environment_intro
-new-page: true
+title: Environment filter
 
 Facilyn: Now, let's look at the **Environment**. Will this action lead toward or away from the future landscape described in our holistic context?
 
